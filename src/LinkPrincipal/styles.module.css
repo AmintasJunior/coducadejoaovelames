@@ -18,8 +18,11 @@ body {
 
 .container {
   width: 360px;
-  margin: 56px auto 0px;
-  padding: 0 24px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  
 }
 
 .profile {
