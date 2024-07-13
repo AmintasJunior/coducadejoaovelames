@@ -1,4 +1,6 @@
 import styled from "./styles.module.css"
+import { Instagram, Facebook } from 'lucide-react';
+
 
 export function LinkPrincipal(){
   return(
@@ -12,62 +14,50 @@ export function LinkPrincipal(){
       </div>
 
       <div className={styled.CxName}>
-        <h1>Coduca de João Velames</h1>
-        <p>Um <strong>NOVO</strong> nome, com um ótimo <strong>EXEMPLO!</strong></p>
+        <h1>CODUCA</h1>
+        <h3>de João Velames</h3>
+        <p className={styled.txtalternativo}>Um <strong>NOVO</strong> nome, com um ótimo <strong>EXEMPLO!</strong></p>
       </div>
 
       <ul>
         <li>
           <a
-            href="https://api.whatsapp.com/send/?phone=5561996770036&text=Ol%C3%A1%2C+Gostaria+de+tirar+algumas+d%C3%BAvidas+sobre+o+Mercado+de+Empates%21&type=phone_number&app_absent=0"
-            target="_blank"
-            >Dúvidas? Fale conosco</a
+            href="#"
+            // target="_blank"
+            >Quem sou eu?
+          </a>
+        </li>
+
+        <li>
+          <a
+            href="#"
+            // target="_blank"
+            >Sugestões de Projetos</a
           >
         </li>
 
         <li>
           <a
-            href="https://1drv.ms/x/s!AjxIeWz3BvOchK54XLRvnTkwLoh0ww?e=cejsoG"
+            href="https://www.facebook.com/coducadejoaovelames"
             target="_blank"
-            >Planilha de Resultados</a
+            >Facebook</a
           >
         </li>
 
-        <li>
-          <a href="https://imperiodosempates-page.vercel.app" target="_blank"
-            >Acesse nosso GRUPO VIP</a
-          >
-        </li>
-
-        <li>
-          <a href="https://t.me/imperiodosempates" target="_blank"
-            >Acompanhe nosso GRUPO</a
-          >
-        </li>
       </ul>
-      <div id="social-links">
-        <a href="https://instagram.com/imperiodosempates_" target="_blank">
+      
+      <div className={styled.socialLinks}>
+        <a  href="https://instagram.com/coducadejoaovelames" target="_blank">
+        <Instagram className={styled.IconsSocialLinks}></Instagram>
         </a>
         <a
-          href="https://www.tiktok.com/@imperiodosempates?_t=8ikyf1cinLC&_r=1"
+          href="https://www.https://www.facebook.com/coducadejoaovelames"
           target="_blank"
         >
-        </a>
-
-        <a
-          href="https://api.whatsapp.com/send/?phone=5561996770036&text=Ol%C3%A1%2C+Gostaria+de+tirar+algumas+d%C3%BAvidas+sobre+o+Mercado+de+Empates%21&type=phone_number&app_absent=0"
-          target="_blank"
-        >
-         
-        </a>
-        <a
-          href="https://youtube.com/@ImperiodosEmpates_?si=4YmRKax4tbNtAukn"
-          target="_blank"
-        >
+        <Facebook className={styled.IconsSocialLinks}></Facebook>
         </a>
       </div>
 
-      <footer>Copyright © 2022-2024</footer>
     </div>
 
     </>
