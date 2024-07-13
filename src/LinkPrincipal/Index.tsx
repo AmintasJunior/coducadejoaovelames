@@ -10,11 +10,10 @@ export function LinkPrincipal(){
           alt="Foto de perfil Coduca de João Velames"
         />
       </div>
-        <p>@ImperioDosEmpates_</p>
 
-      <div className={styled.switch}>
-        <button></button>
-        <span></span>
+      <div className={styled.CxName}>
+        <h1>Coduca de João Velames</h1>
+        <p>Um <strong>NOVO</strong> nome, com um ótimo <strong>EXEMPLO!</strong></p>
       </div>
 
       <ul>
