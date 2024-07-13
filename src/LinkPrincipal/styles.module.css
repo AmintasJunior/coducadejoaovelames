@@ -5,27 +5,13 @@
 }
 
 :root {
-  --text-color: black;
-  --bg-url: url(bg.png);
-  --icon-color: black;
+  --bg-url: url(/public/bg.png);
 }
 
-.light {
-  --text-color: black;
-  --bg-url: url(./assets/assets/bg-mobile-light.webp);
-  --stroke-color: rgba(0, 0, 0, 0.5);
-  --surface-color: rgba(0, 0, 0, 0.05);
-  --surface-color-hover: rgba(0, 0, 0, 0.02);
-  --highlight-color: rgba(0, 0, 0, 0.1);
-  --switch-bg-url: url(./assets/assets/sun.svg);
-  --icon-color: black;
-}
+
 
 body {
   background: var(--bg-url) no-repeat top center/cover;
-}
-
-body * {
   font-family: "Inter", sans-serif;
   color: var(--text-color);
 }
